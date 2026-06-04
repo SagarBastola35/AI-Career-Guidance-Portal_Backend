@@ -1,4 +1,4 @@
-// backend/src/controllers/careerController.js
+
 import CareerProfile from "../models/CareerProfile.js";
 import User from "../models/User.js";
 
