@@ -1,4 +1,4 @@
-// backend/src/routes/careerRoutes.js
+
 import express from "express";
 import {
   saveCareerPreferences,
