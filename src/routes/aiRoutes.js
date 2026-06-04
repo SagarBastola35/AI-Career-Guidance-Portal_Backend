@@ -1,4 +1,4 @@
-// backend/src/routes/aiRoutes.js
+
 import express from "express";
 import {
   getCareerRecommendations,
