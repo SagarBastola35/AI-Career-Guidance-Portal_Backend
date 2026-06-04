@@ -1,5 +1,4 @@
 
-// backend/src/services/aiService.js
 import Groq from "groq-sdk";
 import dotenv from "dotenv";
 
