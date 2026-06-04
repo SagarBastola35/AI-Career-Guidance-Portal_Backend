@@ -1,4 +1,4 @@
-// backend/src/routes/resumeRoutes.js
+
 import express from "express";
 import {
   uploadResume,
