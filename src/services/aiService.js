@@ -10,13 +10,13 @@ const groqApiKey = process.env.GROQ_API_KEY;
 if (groqApiKey && groqApiKey.startsWith("gsk_")) {
   try {
     groq = new Groq({ apiKey: groqApiKey });
-    console.log("✅ Groq AI initialized with free API key");
+    console.log("Groq AI initialized with free API key");
   } catch (err) {
-    console.warn("⚠️ Groq init failed:", err.message);
+    console.warn("Groq init failed:", err.message);
   }
 } else {
   console.log(
-    "⚠️ No valid Groq API key – using MOCK responses for all AI features",
+    "No valid Groq API key – using MOCK responses for all AI features",
   );
 }
 
